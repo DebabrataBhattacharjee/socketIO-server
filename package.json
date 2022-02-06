@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is the server script for SocketIO",
+  "main": " app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Debabrata Bhattacharjee",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
